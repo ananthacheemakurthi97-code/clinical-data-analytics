@@ -1,0 +1,33 @@
+COUNT,,,,DIAGNOSIS,,,,,,,,,ANALYSIS,,,,,
+1. Count of Patients by Gender,,,,1. Average Age by Diagnosis,,,,,,,,,1. Length of Stay Analysis,,,,,
+Gender,Count of Patient_ID,,,Diagnosis,Average of Age,,,,,,,,Drug_Name,Average of Length_of_Stay_Days,,,,
+Female,150,,,Bacterial Meningitis,51,,,,,,,,Acyclovir,10,,,,
+Male,150,,,Meningitis with Cerebral Infarction,51,,,,,,,,Ceftriaxone,11,,,,
+Grand Total,300,,,Tubercular Meningitis,53,,,,,,,,Dexamethasone,11,,,,
+,,,,Viral Meningitis,48,,,,,,,,Meropenem,10,,,,
+2. Count of Patients by Diagnosis,,,,(blank),,,,,,,,,Rifampicin,9,,,,
+Diagnosis,Count of Patient_ID,,,Grand Total,51,,,,,,,,Vancomycin,9,,,,
+Bacterial Meningitis,91,,,,,,,,,,,,Grand Total,10.01,,,,
+Meningitis with Cerebral Infarction,65,,,2. Patients by Gender and Diagnosis,,,,,,,,,,,,,,
+Tubercular Meningitis,66,,,Count of Patient_ID,Diagnosis,,,,,,,,,,,,,
+Viral Meningitis,78,,,Gender,Bacterial Meningitis,Meningitis with Cerebral Infarction,Tubercular Meningitis,Viral Meningitis,Grand Total,,,,2. Drug_Analysis,,,,,
+Grand Total,300,,,Female,42,36,42,30,150,,,,Drug_Name,Count of Patient_ID,,,,
+,,,,Male,49,29,24,48,150,,,,Acyclovir,44,,,,
+,,,,Grand Total,91,65,66,78,300,,,,Ceftriaxone,49,,,,
+3. Count of Patients by Hopsital,,,,,,,,,,,,,Dexamethasone,51,,,,
+Hospital,Count of Patient_ID,,,Treatments by Diagnosis,,,,,,,,,Meropenem,54,,,,
+City Neuro Center,109,,,Count of Patient_ID,Drug_Name,,,,,,,,Rifampicin,58,,,,
+Metro Care Hospital,91,,,Diagnosis,Acyclovir,Ceftriaxone,Dexamethasone,Meropenem,Rifampicin,Vancomycin,Grand Total,,Vancomycin,44,,,,
+THC Hospital,100,,,Bacterial Meningitis,16,8,10,18,21,18,91,,Grand Total,300,,,,
+Grand Total,300,,,Meningitis with Cerebral Infarction,10,15,13,16,5,6,65,,,,,,,
+,,,,Tubercular Meningitis,8,7,14,11,14,12,66,,,,,,,
+,,,,Viral Meningitis,10,19,14,9,18,8,78,,Outcome Analysis,,,,,
+,,,,Grand Total,44,49,51,54,58,44,300,,Count of Patient_ID,Outcome,,,,
+,,,,,,,,,,,,,Drug_Name,Critical,Deceased,Improved,Recovered,Grand Total
+,,,,,,,,,,,,,Acyclovir,10,9,10,15,44
+,,,,,,,,,,,,,Ceftriaxone,11,12,12,14,49
+,,,,,,,,,,,,,Dexamethasone,12,18,5,16,51
+,,,,,,,,,,,,,Meropenem,15,10,14,15,54
+,,,,,,,,,,,,,Rifampicin,15,19,12,12,58
+,,,,,,,,,,,,,Vancomycin,14,6,17,7,44
+,,,,,,,,,,,,,Grand Total,77,74,70,79,300
